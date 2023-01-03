@@ -1,9 +1,8 @@
 # 13-object-relational-mapping
-13-challenge-object-relational-mapping
-# 06-challenge-server-side-apis
-## Server-Side APIs Challenge: Weather Dashboard
+## Object-Relational Mapping (ORM) Challenge: E-commerce Back End
 ## Description
-Third-party APIs enable developers to access their data and functionality by sending requests to a URL with certain parameters. Developers are frequently faced with getting data from another application's API and incorporating it into their own. The goal for the week's challenge was to create a weather dashboard that runs in the browser and includes dynamically updated HTML and CSS. In addition, it was required to to use the 5 Day Weather Forecast link to an external source to obtain weather data for cities.
+The objective of this project was to create the back end of an e-commerce site. I took a functioning Express.js API and configured it to interface with a MySQL database through Sequelize.
+Because this application will not be deployed, I developed a demonstration video that displays its functionality as well as the completion of all of the acceptance criteria. I uploaded the video link and included it in my project's README file below.
 ## Link to deployed application
 file:
 ## Screenshot
