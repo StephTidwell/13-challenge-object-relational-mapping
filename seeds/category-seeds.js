@@ -2,6 +2,12 @@ const { Category } = require("../models");
 
 const categoryData = [
   {
+    category_name: "Smartphones",
+  },
+  {
+    category_name: "Laptops",
+  },
+  {
     category_name: "Shorts",
   },
   {
@@ -9,12 +15,6 @@ const categoryData = [
   },
   {
     category_name: "Coffee",
-  },
-  {
-    category_name: "Smartphones",
-  },
-  {
-    category_name: "Laptops",
   },
 ];
 
