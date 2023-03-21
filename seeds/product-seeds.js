@@ -1,50 +1,49 @@
-const { Product } = require('../models');
+const { Product } = require("../models");
 
 const productData = [
-    {
-        productName: 'Plain T-Shirt',
-        price: 14.99,
-        stock: 14,
-        categoryId: 1,
-    },
-    {
-        productName: 'Running Sneakers',
-        price: 90.0,
-        stock: 25,
-        categoryId: 5,
-    },
-    {
-        productName: 'Branded Baseball Hat',
-        price: 22.99,
-        stock: 12,
-        categoryId: 4,
-    },
-    {
-        productName: 'Top 40 Music Compilation Vinyl Record',
-        price: 12.99,
-        stock: 50,
-        categoryId: 3,
-    },
-    {
-        productName: 'Cargo Shorts',
-        price: 29.99,
-        stock: 22,
-        categoryId: 2,
-    },
-    {
-        productName: 'Stainless Steel Water Bottle',
-        price: 19.99,
-        stock: 40,
-        categoryId: 6,
-    },
-    {
-        productName: 'Organic Fair-Trade Coffee Beans',
-        price: 15.99,
-        stock: 60,
-        categoryId: 7,
-    },
+  {
+    product_name: "iPhone 13 Pro",
+    price: 1099.99,
+    stock: 10,
+    category_id: 4,
+  },
+  {
+    product_name: "Samsung Galaxy S21 Ultra",
+    price: 899.99,
+    stock: 15,
+    category_id: 4,
+  },
+  {
+    product_name: "MacBook Pro",
+    price: 1499.99,
+    stock: 5,
+    category_id: 5,
+  },
+  {
+    product_name: "Dell XPS 13",
+    price: 1299.99,
+    stock: 7,
+    category_id: 5,
+  },
+  {
+    product_name: "JavaScript Mug",
+    price: 9.99,
+    stock: 22,
+    category_id: 2,
+  },
+  {
+    product_name: "Node.js Mug",
+    price: 7.99,
+    stock: 30,
+    category_id: 2,
+  },
+  {
+    product_name: "Express.js Mug",
+    price: 8.99,
+    stock: 60,
+    category_id: 2,
+  },
 ];
-
 
 const seedProducts = () => Product.bulkCreate(productData);
 

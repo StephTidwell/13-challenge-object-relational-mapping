@@ -1,36 +1,36 @@
-const { Tag } = require('../models');
+const { Tag } = require("../models");
 
 const tagData = [
-    {
-        tag_name: 'rock music',
-    },
-    {
-        tag_name: 'pop music',
-    },
-    {
-        tag_name: 'blue',
-    },
-    {
-        tag_name: 'red',
-    },
-    {
-        tag_name: 'green',
-    },
-    {
-        tag_name: 'white',
-    },
-    {
-        tag_name: 'gold',
-    },
-    {
-        tag_name: 'pop culture',
-    },
-    {
-        tag_name: 'dark',
-    },
-    {
-        tag_name: 'medium',
-    }
+  {
+    tag_name: "Apple",
+  },
+  {
+    tag_name: "Samsung",
+  },
+  {
+    tag_name: "Dell",
+  },
+  {
+    tag_name: "HP",
+  },
+  {
+    tag_name: "Lenovo",
+  },
+  {
+    tag_name: "Nike",
+  },
+  {
+    tag_name: "Adidas",
+  },
+  {
+    tag_name: "Under Armour",
+  },
+  {
+    tag_name: "Coffee",
+  },
+  {
+    tag_name: "Tea",
+  },
 ];
 
 const seedTags = () => Tag.bulkCreate(tagData);
